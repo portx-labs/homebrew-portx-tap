@@ -1,28 +1,28 @@
 class Ptx < Formula
   desc "PortX Platform CLI - connect to clusters and manage your apps"
   homepage "https://github.com/portx-labs/ptx-cli"
-  version "1.0.13"
+  version "1.0.15"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.13/ptx-cli-darwin-amd64.zip"
-      sha256 "fafee04365643b8402ce3b2800238c8841094fe1aaca3a1bc785814aa3928194"
+      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.15/ptx-cli-darwin-amd64.zip"
+      sha256 "beea506c959a59c24517a62c1aa93c8246edb809bcf8554d44fa923a12b77c4c"
     end
     on_arm do
-      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.13/ptx-cli-darwin-arm64.zip"
-      sha256 "829dde632770b86b298b698180c8f65286deae973a267d0302a621a6cf089b8a"
+      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.15/ptx-cli-darwin-arm64.zip"
+      sha256 "0f9cdd1fa767741dd8e593d16f438e58ad46051335be3e3005ba7d732bdbeec2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.13/ptx-cli-linux-amd64.zip"
-      sha256 "f308fc5e4a7636ea52b320cd372b5c98f34e6be8118ee442639f82b2a473716b"
+      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.15/ptx-cli-linux-amd64.zip"
+      sha256 "652f831d50366f1240893d6a083d11cdf817bda60211cb8d50646877aab363bf"
     end
     on_arm do
-      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.13/ptx-cli-linux-arm64.zip"
-      sha256 "61fae3a9928ba9f62a7b896c5590b92624588a88f9348872c270bc3cd518d95a"
+      url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.15/ptx-cli-linux-arm64.zip"
+      sha256 "160a27e5ccfe1f0212792e63187f14ea7ecd3ddd3e827c20a00fadaf04b2aa2a"
     end
   end
 
