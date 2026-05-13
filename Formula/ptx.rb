@@ -7,22 +7,22 @@ class Ptx < Formula
   on_macos do
     on_intel do
       url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.22/ptx-cli-darwin-amd64.zip"
-      sha256 "12efbd38d0a6d46e09898cd48c9ecdbd4cf10b6692574b4512c45bbf6e8a5edd"
+      sha256 "2787348bb534812617a2a6713789a75355c564f5259770376fc106aed9b45771"
     end
     on_arm do
       url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.22/ptx-cli-darwin-arm64.zip"
-      sha256 "ad1441329b31c69f0ca3527f1542c11986f50776ce677880bc4de2d861dcec33"
+      sha256 "073b703c4f770363441af3208830044c84d536dcf836852e0f001dd873b858af"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.22/ptx-cli-linux-amd64.zip"
-      sha256 "a4ff6717ab7e2f7245355816d095e6ab4007b660b8c2956bda5becbeacdde25d"
+      sha256 "2755e1ce5cd9d3efabeb2b54e5cd9a6796d394dcfd292ecf3d795abd96eadf89"
     end
     on_arm do
       url "https://github.com/portx-labs/ptx-cli/releases/download/v1.0.22/ptx-cli-linux-arm64.zip"
-      sha256 "d5810bada2365364c7b502cc72d1342c715e8e05701c26fc0d1592a378796773"
+      sha256 "b19154e351284b3db3b0e4e511e1b2ca571c4d709673adcc77a36e85afae03d9"
     end
   end
 
